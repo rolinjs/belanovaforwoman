@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Belanova For Women | Centro de Estética Integral para Mujeres en Piura, Perú</title>
+  <title>Belanova Estética Integral</title>
   <meta name="description" content="Belanova For Women es el centro de estética premium en Piura, Perú, diseñado exclusivamente para la mujer moderna. Tratamientos faciales, radiofrecuencia, control de acné, hidratación profunda y más."/>
   <meta name="keywords" content="estética para mujeres, centro de belleza femenina, tratamientos faciales mujer, Piura, Perú, limpieza facial, radiofrecuencia, acné mujer, Belanova For Women"/>
   <meta name="author" content="Belanova For Women"/>
   <meta name="robots" content="index, follow"/>
   <link rel="canonical" href="https://belanovaforwomen.com/"/>
-  <link rel="icon" type="image/png" href="img/1.png">
+  <link rel="icon" type="image/png" href="img/logo.png">
   <meta property="og:type" content="website"/>
   <meta property="og:title" content="Belanova For Women | Estética Premium para Mujeres"/>
   <meta property="og:description" content="Centro de estética integral para la mujer moderna en Piura, Perú. Tratamientos faciales, radiofrecuencia, control de acné y mucho más."/>
@@ -512,7 +512,7 @@
   </div>
   <ul class="nav-links">
     <li><a href="#servicios">Servicios</a></li>
-    <li><a href="#galeria">Instalaciones</a></li>
+    <!-- <li><a href="#galeria">Instalaciones</a></li> -->
     <li><a href="#pacientes">Resultados</a></li>
     <li><a href="#ubicacion">Ubicación</a></li>
     <li><a href="#contacto">Contacto</a></li>
@@ -526,7 +526,7 @@
 <div class="mobile-nav">
   <button class="close-btn" onclick="document.querySelector('.mobile-nav').classList.remove('open')"><i class="fas fa-times"></i></button>
   <a href="#servicios" onclick="this.closest('.mobile-nav').classList.remove('open')">Servicios</a>
-  <a href="#galeria" onclick="this.closest('.mobile-nav').classList.remove('open')">Instalaciones</a>
+  <!-- <a href="#galeria" onclick="this.closest('.mobile-nav').classList.remove('open')">Instalaciones</a> -->
   <a href="#pacientes" onclick="this.closest('.mobile-nav').classList.remove('open')">Resultados</a>
   <a href="#ubicacion" onclick="this.closest('.mobile-nav').classList.remove('open')">Ubicación</a>
   <a href="#contacto" onclick="this.closest('.mobile-nav').classList.remove('open')">Contacto</a>
@@ -591,89 +591,145 @@
     <div class="srv-subcategory reveal">
       <div class="srv-subcat-header"><i class="fas fa-eye-dropper"></i> Cejas</div>
       <div class="services-grid">
+
         <article class="service-card" data-title="Microblading" data-desc="Trazos ultrafinos que imitan cada pelo con precisión milimétrica. Cejas naturales, perfectas y duraderas desde el primer trazo." onclick="openModal(this)">
           <div class="service-num">01</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-pen-nib"></i><span>Microblading</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/microblanding.webp" alt="Microblading" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-pen-nib"></i><span>Microblading</span></div>
+          </div>
           <div class="service-body"><h3>Microblading</h3><p>Trazos ultrafinos que imitan cada pelo con precisión milimétrica. Cejas naturales y duraderas.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Microshading" data-desc="Efecto polvo suave y difuminado para una mirada profunda con acabado de maquillaje profesional todo el día, sin esfuerzo." onclick="openModal(this)">
           <div class="service-num">02</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-cloud"></i><span>Microshading</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/microshading.webp" alt="Microshading" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-cloud"></i><span>Microshading</span></div>
+          </div>
           <div class="service-body"><h3>Microshading</h3><p>Efecto polvo suave y difuminado para una mirada profunda con acabado profesional.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Nanoblading" data-desc="La evolución del microblading. Agujas de nanotecnología que crean el trazo más fino y realista del mercado para cejas absolutamente naturales." onclick="openModal(this)">
           <div class="service-num">03</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-atom"></i><span>Nanoblading</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/nanoblading.webp" alt="Nanoblading" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-atom"></i><span>Nanoblading</span></div>
+          </div>
           <div class="service-body"><h3>Nanoblading</h3><p>La evolución del microblading con nanotecnología para el trazo más fino y realista.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Shading" data-desc="Densidad, forma y sombra estratégica que enmarca tu rostro con elegancia. Ideal para pieles mixtas o maduras." onclick="openModal(this)">
           <div class="service-num">04</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-paint-brush"></i><span>Shading</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/shadding.webp" alt="Shading" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-paint-brush"></i><span>Shading</span></div>
+          </div>
           <div class="service-body"><h3>Shading</h3><p>Densidad, forma y sombra estratégica que enmarca tu rostro con elegancia.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Hair Strokes" data-desc="Cada pelo, una obra de arte. Técnica que recrea la textura real del cabello para cejas con volumen, cuerpo y total naturalidad." onclick="openModal(this)">
           <div class="service-num">05</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-feather-alt"></i><span>Hair Strokes</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/hair-strokes.jpg" alt="Hair Strokes" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-feather-alt"></i><span>Hair Strokes</span></div>
+          </div>
           <div class="service-body"><h3>Hair Strokes</h3><p>Técnica que recrea la textura real del cabello para cejas con total naturalidad.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
       </div>
     </div>
 
     <div class="srv-subcategory reveal">
       <div class="srv-subcat-header"><i class="fas fa-eye"></i> Ojos / Párpados</div>
       <div class="services-grid">
+
         <article class="service-card" data-title="Delineado Latino" data-desc="Intenso, seductor y perfectamente delineado. Realza la mirada con un trazo firme y duradero que no se corre, no se mueve, no se borra." onclick="openModal(this)">
           <div class="service-num">01</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-eye"></i><span>Delineado Latino</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/delineado-latino.jpg" alt="Delineado Latino" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-eye"></i><span>Delineado Latino</span></div>
+          </div>
           <div class="service-body"><h3>Delineado Latino</h3><p>Intenso, seductor y perfectamente delineado. Trazo firme y duradero.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Microdelineado" data-desc="Sutileza y sofisticación en un solo trazo. Define tus ojos sin exagerar, para una mirada limpia, natural y siempre impecable." onclick="openModal(this)">
           <div class="service-num">02</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-pencil-alt"></i><span>Microdelineado</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/microdelineado.jpg" alt="Microdelineado" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-pencil-alt"></i><span>Microdelineado</span></div>
+          </div>
           <div class="service-body"><h3>Microdelineado</h3><p>Define tus ojos sin exagerar, para una mirada limpia y siempre impecable.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Delineado Iluminador" data-desc="El secreto de una mirada más amplia y luminosa. Técnica exclusiva que abre los ojos y proyecta luz desde adentro." onclick="openModal(this)">
           <div class="service-num">03</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-sun"></i><span>Delineado Iluminador</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/delineado-iluminador.jpg" alt="Delineado Iluminador" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-sun"></i><span>Delineado Iluminador</span></div>
+          </div>
           <div class="service-body"><h3>Delineado Iluminador</h3><p>Técnica exclusiva que abre los ojos y proyecta luz desde adentro.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
       </div>
     </div>
 
     <div class="srv-subcategory reveal">
       <div class="srv-subcat-header"><i class="fas fa-kiss-wink-heart"></i> Labios</div>
       <div class="services-grid">
+
         <article class="service-card" data-title="Full Lips" data-desc="Labios con color uniforme, volumen visual y una apariencia jugosa y definida. Despiértate lista, lúcete sin lápiz labial." onclick="openModal(this)">
           <div class="service-num">01</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-kiss-wink-heart"></i><span>Full Lips</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/full-lips.jpg" alt="Full Lips" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-kiss-wink-heart"></i><span>Full Lips</span></div>
+          </div>
           <div class="service-body"><h3>Full Lips</h3><p>Color uniforme, volumen visual y apariencia jugosa. Despiértate lista.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Color Contouring Delineado" data-desc="Perfil perfecto, color preciso y simetría que transforma. Labios de alfombra roja, todos los días." onclick="openModal(this)">
           <div class="service-num">02</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-magic"></i><span>Color Contouring</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/color-contouring.jpg" alt="Color Contouring" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-magic"></i><span>Color Contouring</span></div>
+          </div>
           <div class="service-body"><h3>Color Contouring Delineado</h3><p>Perfil perfecto, color preciso y simetría que transforma. Labios de alfombra roja.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
       </div>
     </div>
 
     <div class="srv-subcategory reveal">
       <div class="srv-subcat-header"><i class="fas fa-star"></i> Especialidades</div>
       <div class="services-grid">
+
         <article class="service-card" data-title="Micropuntura Brasilera — Estrías" data-desc="Restaura la piel donde las marcas quedaron. Técnica especializada que repigmenta y regenera, devolviendo uniformidad y confianza a tu piel." onclick="openModal(this)">
           <div class="service-num">01</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-band-aid"></i><span>Estrías / Micropuntura</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/micropuntura-estrias.jpg" alt="Estrías / Micropuntura" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-band-aid"></i><span>Estrías / Micropuntura</span></div>
+          </div>
           <div class="service-body"><h3>Micropuntura Brasilera</h3><p>Repigmenta y regenera la piel, devolviendo uniformidad y confianza.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Micropigmentación Capilar" data-desc="La solución definitiva para zonas con escasez de cabello. Recreamos folículos con precisión artística para un resultado denso, natural y sin cirugía." onclick="openModal(this)">
           <div class="service-num">02</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-user-alt"></i><span>Micropigmentación Capilar</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/micropigmentacion-capilar.jpg" alt="Micropigmentación Capilar" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-user-alt"></i><span>Micropigmentación Capilar</span></div>
+          </div>
           <div class="service-body"><h3>Micropigmentación Capilar</h3><p>Recreamos folículos con precisión artística. Resultado denso, natural y sin cirugía.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Micropigmentación de Aréola Mamaria Paramédica" data-desc="Un servicio de restauración con propósito. Reconstruimos la aréola con técnica especializada, devolviéndole a cada mujer su integridad, su imagen y su paz." onclick="openModal(this)">
           <div class="service-num">03</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-heart"></i><span>Aréola Paramédica</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/areola-paramedica.jpg" alt="Aréola Paramédica" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-heart"></i><span>Aréola Paramédica</span></div>
+          </div>
           <div class="service-body"><h3>Aréola Mamaria Paramédica</h3><p>Reconstruimos la aréola con técnica especializada. Un servicio de restauración con propósito.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
       </div>
     </div>
 
@@ -684,46 +740,79 @@
     <div class="srv-subcategory reveal">
       <div class="srv-subcat-header"><i class="fas fa-spa"></i> Tratamientos Faciales</div>
       <div class="services-grid">
+
         <article class="service-card" data-title="HydraFacial" data-desc="El tratamiento facial #1 del mundo. Limpieza profunda, hidratación intensa y brillo inmediato en una sola sesión. Sin rojeces, sin tiempo de recuperación." onclick="openModal(this)">
           <div class="service-num">01</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-tint"></i><span>HydraFacial</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/hydrafacial.jpg" alt="HydraFacial" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-tint"></i><span>HydraFacial</span></div>
+          </div>
           <div class="service-body"><h3>HydraFacial</h3><p>El tratamiento facial #1 del mundo. Limpieza, hidratación y brillo en una sola sesión.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Limpieza Facial Purificante Mineral DETOX" data-desc="Libera tu piel de toxinas, impurezas y exceso de grasa con minerales activos de alta eficacia. Piel renovada, respira y brilla como nunca." onclick="openModal(this)">
           <div class="service-num">02</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-leaf"></i><span>Detox Mineral</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/detox-mineral.jpg" alt="Detox Mineral" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-leaf"></i><span>Detox Mineral</span></div>
+          </div>
           <div class="service-body"><h3>Limpieza DETOX Mineral</h3><p>Libera tu piel de toxinas e impurezas con minerales activos de alta eficacia.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Limpieza Aclarante" data-desc="Ilumina, unifica y desvanece manchas con activos despigmentantes de alta potencia. Recupera el tono natural de tu piel sesión a sesión." onclick="openModal(this)">
           <div class="service-num">03</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-sun"></i><span>Limpieza Aclarante</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/limpieza-aclarante.jpg" alt="Limpieza Aclarante" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-sun"></i><span>Limpieza Aclarante</span></div>
+          </div>
           <div class="service-body"><h3>Limpieza Aclarante</h3><p>Ilumina, unifica y desvanece manchas con activos despigmentantes de alta potencia.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Miami Peeling" data-desc="El favorito de las celebrities. Una combinación exclusiva de ácidos que renueva, ilumina y transforma la piel con el brillo que Miami inspira." onclick="openModal(this)">
           <div class="service-num">04</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-star"></i><span>Miami Peeling</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/miami-peeling.jpg" alt="Miami Peeling" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-star"></i><span>Miami Peeling</span></div>
+          </div>
           <div class="service-body"><h3>Miami Peeling</h3><p>El favorito de las celebrities. Renueva, ilumina y transforma la piel.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Juicy Lips — Hidratación de Labios" data-desc="Labios suaves, voluminosos y llenos de vida. Hidratación profunda con ácido hialurónico para un efecto jugoso e irresistible." onclick="openModal(this)">
           <div class="service-num">05</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-kiss-wink-heart"></i><span>Juicy Lips</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/juicylips.webp" alt="Juicy Lips" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-kiss-wink-heart"></i><span>Juicy Lips</span></div>
+          </div>
           <div class="service-body"><h3>Juicy Lips</h3><p>Hidratación profunda con ácido hialurónico para labios suaves y voluminosos.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Volume Lips" data-desc="Volumen natural, perfiles perfectos y una proyección que transforma el rostro. Labios de ensueño con resultados inmediatos y duraderos." onclick="openModal(this)">
           <div class="service-num">06</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-gem"></i><span>Volume Lips</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/volume-lips.jpg" alt="Volume Lips" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-gem"></i><span>Volume Lips</span></div>
+          </div>
           <div class="service-body"><h3>Volume Lips</h3><p>Volumen natural y perfiles perfectos. Labios de ensueño con resultados duraderos.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Hilos PDO" data-desc="Lifting sin cirugía. Redefinimos el óvalo facial y combatimos la flacidez con hilos biocompatibles que estimulan colágeno y devuelven la firmeza." onclick="openModal(this)">
           <div class="service-num">07</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-magic"></i><span>Hilos PDO</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/hilos-pdo.jpg" alt="Hilos PDO" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-magic"></i><span>Hilos PDO</span></div>
+          </div>
           <div class="service-body"><h3>Hilos PDO</h3><p>Lifting sin cirugía. Hilos biocompatibles que estimulan colágeno y devuelven firmeza.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Depilación Facial IPL" data-desc="Eliminación definitiva del vello facial con tecnología de luz pulsada intensa. Suave, precisa y permanente." onclick="openModal(this)">
           <div class="service-num">08</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-bolt"></i><span>Depilación IPL</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/depilacion-ipl.jpg" alt="Depilación IPL" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-bolt"></i><span>Depilación IPL</span></div>
+          </div>
           <div class="service-body"><h3>Depilación Facial IPL</h3><p>Eliminación definitiva del vello con luz pulsada intensa. Suave, precisa y permanente.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
       </div>
     </div>
   </div>
@@ -733,36 +822,61 @@
     <div class="srv-subcategory reveal">
       <div class="srv-subcat-header"><i class="fas fa-star-of-life"></i> Rejuvenecimiento Facial</div>
       <div class="services-grid">
+
         <article class="service-card" data-title="Rejuvenecimiento Facial Express" data-desc="Resultados visibles desde la primera sesión. Estimulamos el colágeno desde adentro mientras la tecnología trabaja desde afuera. Piel más firme, luminosa y rejuvenecida." onclick="openModal(this)">
           <div class="service-num">01</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-spa"></i><span>Rejuvenecimiento</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/rejuvenecimiento-express.jpg" alt="Rejuvenecimiento" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-spa"></i><span>Rejuvenecimiento</span></div>
+          </div>
           <div class="service-body"><h3>Rejuvenecimiento Facial Express</h3><p>Bioestimuladores + Aparatología. Resultados visibles desde la primera sesión.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Limpieza Antiedad + Peeling Químico" data-desc="Doble acción: limpieza profunda y renovación celular acelerada. Borramos el tiempo de tu piel con ácidos de última generación." onclick="openModal(this)">
           <div class="service-num">02</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-flask"></i><span>Antiedad + Peeling</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/antiedad-peeling.jpg" alt="Antiedad + Peeling" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-flask"></i><span>Antiedad + Peeling</span></div>
+          </div>
           <div class="service-body"><h3>Limpieza Antiedad + Peeling</h3><p>Limpieza profunda y renovación celular con ácidos de última generación.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Dermapen + Plasma Factores de Crecimiento" data-desc="Microcanales de regeneración + poder biológico de tu propia piel. La fórmula perfecta para restaurar, rejuvenecer y densificar desde las capas más profundas." onclick="openModal(this)">
           <div class="service-num">03</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-microscope"></i><span>Dermapen + Plasma</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/dermapen-plasma.jpg" alt="Dermapen + Plasma" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-microscope"></i><span>Dermapen + Plasma</span></div>
+          </div>
           <div class="service-body"><h3>Dermapen + Plasma PRP</h3><p>Regeneración desde las capas más profundas. Microcanales + factores de crecimiento.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Exosomas PDRN" data-desc="Biotecnología de vanguardia al servicio de tu piel. Regeneración celular profunda, reparación de tejidos y efecto antienvejecimiento superior. El futuro del skincare, hoy." onclick="openModal(this)">
           <div class="service-num">04</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-atom"></i><span>Exosomas PDRN</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/exosomas-pdrn.jpg" alt="Exosomas PDRN" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-atom"></i><span>Exosomas PDRN</span></div>
+          </div>
           <div class="service-body"><h3>Exosomas PDRN</h3><p>Biotecnología de vanguardia para regeneración celular profunda. El futuro del skincare.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="NCTF — Bioestimulador Full Face" data-desc="El cóctel de juventud más completo del mercado. Vitaminas, aminoácidos y ácido hialurónico en un tratamiento que revitaliza cada centímetro de tu rostro." onclick="openModal(this)">
           <div class="service-num">05</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-vial"></i><span>NCTF Full Face</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/nctf-full-face.jpg" alt="NCTF Full Face" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-vial"></i><span>NCTF Full Face</span></div>
+          </div>
           <div class="service-body"><h3>NCTF — Bioestimulador Full Face</h3><p>El cóctel de juventud más completo. Vitaminas, aminoácidos y ácido hialurónico.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Radiesse" data-desc="El bioestimulador de colágeno más potente. Volumiza, rellena y regenera con resultados que mejoran con el tiempo. Inversión en belleza que vale." onclick="openModal(this)">
           <div class="service-num">06</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-syringe"></i><span>Radiesse</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/radiesse.jpg" alt="Radiesse" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-syringe"></i><span>Radiesse</span></div>
+          </div>
           <div class="service-body"><h3>Radiesse</h3><p>El bioestimulador de colágeno más potente. Volumiza, rellena y regenera.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
       </div>
     </div>
   </div>
@@ -772,51 +886,88 @@
     <div class="srv-subcategory reveal">
       <div class="srv-subcat-header"><i class="fas fa-heart"></i> Tratamientos Corporales</div>
       <div class="services-grid">
+
         <article class="service-card" data-title="Reducción de Medidas — Aparatología" data-desc="Tecnología de punta que moldea, tonifica y reduce donde más importa. Resultados medibles desde las primeras sesiones, sin agujas, sin cirugía." onclick="openModal(this)">
           <div class="service-num">01</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-weight"></i><span>Reducción de Medidas</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/reduccion medidas.webp" alt="Reducción de Medidas" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-weight"></i><span>Reducción de Medidas</span></div>
+          </div>
           <div class="service-body"><h3>Reducción de Medidas</h3><p>Aparatología de punta que moldea y tonifica. Sin agujas, sin cirugía.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Reducción de Medidas — Aparatología + Enzimas" data-desc="El combo más poderoso para transformar tu cuerpo. Enzimas lipolíticas que rompen la grasa + aparatología que la elimina. Máximo resultado, mínimo tiempo." onclick="openModal(this)">
           <div class="service-num">02</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-fire"></i><span>Aparatología + Enzimas</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/reduccion-enzimas.jpg" alt="Aparatología + Enzimas" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-fire"></i><span>Aparatología + Enzimas</span></div>
+          </div>
           <div class="service-body"><h3>Reducción + Enzimas</h3><p>Enzimas lipolíticas + aparatología. El combo más poderoso para transformar tu cuerpo.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Levantamiento de Glúteos" data-desc="Sin implantes. Sin cirugía. Solo tecnología especializada y técnica profesional para un lifting natural que resalta, tonifica y define tu silueta." onclick="openModal(this)">
           <div class="service-num">03</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-star"></i><span>Levantamiento Glúteos</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/levantamiento-gluteos.jpg" alt="Levantamiento Glúteos" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-star"></i><span>Levantamiento Glúteos</span></div>
+          </div>
           <div class="service-body"><h3>Levantamiento de Glúteos</h3><p>Sin implantes ni cirugía. Lifting natural que resalta y define tu silueta.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Moldeado de Espalda" data-desc="Redefine contornos, elimina la grasa localizada y recupera la firmeza de tu espalda. Porque la belleza también se ve de espaldas." onclick="openModal(this)">
           <div class="service-num">04</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-user-alt"></i><span>Moldeado de Espalda</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/moldeado-espalda.jpg" alt="Moldeado de Espalda" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-user-alt"></i><span>Moldeado de Espalda</span></div>
+          </div>
           <div class="service-body"><h3>Moldeado de Espalda</h3><p>Redefine contornos y recupera la firmeza. La belleza también se ve de espaldas.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Contorno de Piernas y Celulitis" data-desc="Mesoterapia que trata desde adentro, maderoterapia que activa desde afuera. Adiós celulitis, hola confianza." onclick="openModal(this)">
           <div class="service-num">05</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-hand-peace"></i><span>Piernas y Celulitis</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/piernas-celulitis.jpg" alt="Piernas y Celulitis" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-hand-peace"></i><span>Piernas y Celulitis</span></div>
+          </div>
           <div class="service-body"><h3>Contorno de Piernas y Celulitis</h3><p>Mesoterapia + Maderoterapia. El dúo ganador para piernas lisas y definidas.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Tratamiento Anticelulitis" data-desc="Protocolo intensivo diseñado para combatir la celulitis desde su origen. Activos específicos + técnicas avanzadas para una piel visiblemente más lisa." onclick="openModal(this)">
           <div class="service-num">06</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-ban"></i><span>Anticelulitis</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/anticelulitis.jpg" alt="Anticelulitis" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-ban"></i><span>Anticelulitis</span></div>
+          </div>
           <div class="service-body"><h3>Tratamiento Anticelulitis</h3><p>Protocolo intensivo con activos específicos para una piel visiblemente más lisa.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Aclaramiento Zona Íntima — Peeling" data-desc="Delicadeza, confianza y resultados reales. Tratamiento especializado para unificar el tono de zonas sensibles y recuperar tu comodidad e intimidad." onclick="openModal(this)">
           <div class="service-num">07</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-gem"></i><span>Zona Íntima</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/zona-intima.jpg" alt="Zona Íntima" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-gem"></i><span>Zona Íntima</span></div>
+          </div>
           <div class="service-body"><h3>Aclaramiento Zona Íntima</h3><p>Peeling especializado para unificar el tono de zonas sensibles con delicadeza.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Tensado de Brazos" data-desc="Firmeza, definición y elasticidad donde la piel cede. Tratamiento no invasivo que devuelve tonicidad y contorno a tus brazos de forma segura." onclick="openModal(this)">
           <div class="service-num">08</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-dumbbell"></i><span>Tensado de Brazos</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/tensado-brazos.jpg" alt="Tensado de Brazos" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-dumbbell"></i><span>Tensado de Brazos</span></div>
+          </div>
           <div class="service-body"><h3>Tensado de Brazos</h3><p>Firmeza y definición. Tratamiento no invasivo que devuelve tonicidad a tus brazos.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Pack Post Parto — Láser Fibroblast" data-desc="Diseñado para mamás que quieren recuperar su cuerpo con amor. Estimulación del fibroblasto para tensar, reparar y regenerar la piel después del parto." onclick="openModal(this)">
           <div class="service-num">09</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-heart"></i><span>Pack Post Parto</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/fibroblast.webp" alt="Pack Post Parto" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-heart"></i><span>Pack Post Parto</span></div>
+          </div>
           <div class="service-body"><h3>Pack Post Parto</h3><p>Láser Fibroblast para tensar, reparar y regenerar la piel después del parto.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
       </div>
     </div>
   </div>
@@ -826,36 +977,61 @@
     <div class="srv-subcategory reveal">
       <div class="srv-subcat-header"><i class="fas fa-syringe"></i> Vitaminas Endovenosas</div>
       <div class="services-grid">
+
         <article class="service-card" data-title="Vitamina C Endovenosa" data-desc="Antioxidante máximo, luminosidad interna y sistema inmune a full. Belleza y salud en una sola infusión." onclick="openModal(this)">
           <div class="service-num">01</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-lemon"></i><span>Vitamina C</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/vitamina-c.jpg" alt="Vitamina C" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-lemon"></i><span>Vitamina C</span></div>
+          </div>
           <div class="service-body"><h3>Vitamina C</h3><p>Antioxidante máximo, luminosidad interna y sistema inmune a full.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Hepatoprotector" data-desc="Desintoxica y protege tu hígado desde adentro. El reset que tu cuerpo necesita para funcionar en su mejor versión." onclick="openModal(this)">
           <div class="service-num">02</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-shield-alt"></i><span>Hepatoprotector</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/hepatoprotector.jpg" alt="Hepatoprotector" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-shield-alt"></i><span>Hepatoprotector</span></div>
+          </div>
           <div class="service-body"><h3>Hepatoprotector</h3><p>Desintoxica y protege tu hígado. El reset que tu cuerpo necesita.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Relajante Endovenoso" data-desc="Libera tensión, calma el sistema nervioso y restaura el equilibrio. Recarga real para cuerpo y mente." onclick="openModal(this)">
           <div class="service-num">03</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-moon"></i><span>Relajante</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/relajante.jpg" alt="Relajante" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-moon"></i><span>Relajante</span></div>
+          </div>
           <div class="service-body"><h3>Relajante</h3><p>Libera tensión y calma el sistema nervioso. Recarga real para cuerpo y mente.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Energy — Vitaminas Energizantes" data-desc="Vitaminas y cofactores que despiertan tu energía real. Sin cafeína, sin estimulantes. Solo bienestar puro desde la vena." onclick="openModal(this)">
           <div class="service-num">04</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-bolt"></i><span>Energy</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/energy.jpg" alt="Energy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-bolt"></i><span>Energy</span></div>
+          </div>
           <div class="service-body"><h3>Energy</h3><p>Vitaminas que despiertan tu energía real. Sin cafeína. Solo bienestar puro.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Inmuno Booster" data-desc="Activa y potencia tus defensas con micronutrientes esenciales. Tu escudo natural, reforzado." onclick="openModal(this)">
           <div class="service-num">05</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-shield-virus"></i><span>Inmuno Booster</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/inmuno-booster.jpg" alt="Inmuno Booster" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-shield-virus"></i><span>Inmuno Booster</span></div>
+          </div>
           <div class="service-body"><h3>Inmuno Booster</h3><p>Activa y potencia tus defensas con micronutrientes esenciales. Tu escudo reforzado.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Desinflamante Endovenoso" data-desc="Combate la inflamación sistémica y reduce el dolor desde adentro. Recuperación más rápida, bienestar más duradero." onclick="openModal(this)">
           <div class="service-num">06</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-capsules"></i><span>Desinflamante</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/desinflamante.jpg" alt="Desinflamante" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-capsules"></i><span>Desinflamante</span></div>
+          </div>
           <div class="service-body"><h3>Desinflamante</h3><p>Combate la inflamación sistémica desde adentro. Recuperación más rápida.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
       </div>
     </div>
   </div>
@@ -865,21 +1041,34 @@
     <div class="srv-subcategory reveal">
       <div class="srv-subcat-header"><i class="fas fa-hands"></i> Tratamientos Fisioterapéuticos Clínicos</div>
       <div class="services-grid">
+
         <article class="service-card" data-title="Drenaje Linfático" data-desc="Activa tu sistema linfático, elimina líquidos retenidos y reduce la hinchazón con técnica manual especializada. Tu cuerpo, drenado y renovado." onclick="openModal(this)">
           <div class="service-num">01</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-hand-peace"></i><span>Drenaje Linfático</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/drenaje-linfatico.jpg" alt="Drenaje Linfático" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-hand-peace"></i><span>Drenaje Linfático</span></div>
+          </div>
           <div class="service-body"><h3>Drenaje Linfático</h3><p>Elimina líquidos retenidos y reduce la hinchazón con técnica manual especializada.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Drenaje Post Quirúrgico Corporal" data-desc="Recuperación más rápida, menos inflamación y mejores resultados postoperatorios. Acompañamos tu proceso con técnica clínica certificada." onclick="openModal(this)">
           <div class="service-num">02</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-procedures"></i><span>Post Quirúrgico Corporal</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/post-quirurgico-corporal.jpg" alt="Post Quirúrgico Corporal" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-procedures"></i><span>Post Quirúrgico Corporal</span></div>
+          </div>
           <div class="service-body"><h3>Drenaje Post Quirúrgico</h3><p>Recuperación más rápida con técnica clínica certificada. Menos inflamación, mejores resultados.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
         <article class="service-card" data-title="Drenaje Post Quirúrgico de Mamas" data-desc="Cuidado especializado para el postoperatorio mamario. Reducimos edemas, mejoramos la cicatrización y acompañamos tu recuperación con manos expertas." onclick="openModal(this)">
           <div class="service-num">03</div>
-          <div class="service-img-wrap"><div class="service-img-placeholder"><i class="fas fa-heart"></i><span>Post Quirúrgico Mamas</span></div></div>
+          <div class="service-img-wrap">
+            <img src="img/services/post-quirurgico-mamas.jpg" alt="Post Quirúrgico Mamas" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="service-img-placeholder" style="display:none;"><i class="fas fa-heart"></i><span>Post Quirúrgico Mamas</span></div>
+          </div>
           <div class="service-body"><h3>Drenaje Post Quirúrgico de Mamas</h3><p>Cuidado especializado mamario. Reducimos edemas y mejoramos la cicatrización.</p><span class="service-more"><i class="fas fa-arrow-right"></i> Ver más</span></div>
         </article>
+
       </div>
     </div>
   </div>
@@ -909,22 +1098,31 @@
     <p class="section-desc">Testimonios visuales de nuestras pacientes satisfechas. Resultados visibles desde la primera sesión.</p>
   </div>
   <div class="patients-grid">
+
     <div class="patient-card reveal">
-      <div class="patient-placeholder"><i class="fas fa-user"></i><span>Antes / Después</span><small>Tratamiento Facial</small></div>
+      <img src="img/patients/tratamiento-facial.jpg" alt="Antes y después - Tratamiento Facial" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+      <div class="patient-placeholder" style="display:none;"><i class="fas fa-user"></i><span>Antes / Después</span><small>Tratamiento Facial</small></div>
       <div class="patient-badge">Antes / Después</div>
     </div>
+
     <div class="patient-card reveal">
-      <div class="patient-placeholder"><i class="fas fa-user"></i><span>Antes / Después</span><small>Radiofrecuencia</small></div>
+      <img src="img/patients/radiofrecuencia.jpg" alt="Antes y después - Radiofrecuencia" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+      <div class="patient-placeholder" style="display:none;"><i class="fas fa-user"></i><span>Antes / Después</span><small>Radiofrecuencia</small></div>
       <div class="patient-badge">Antes / Después</div>
     </div>
+
     <div class="patient-card reveal">
-      <div class="patient-placeholder"><i class="fas fa-user"></i><span>Antes / Después</span><small>Limpieza Facial</small></div>
+      <img src="img/patients/limpieza-facial.jpg" alt="Antes y después - Limpieza Facial" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+      <div class="patient-placeholder" style="display:none;"><i class="fas fa-user"></i><span>Antes / Después</span><small>Limpieza Facial</small></div>
       <div class="patient-badge">Antes / Después</div>
     </div>
+
     <div class="patient-card reveal">
-      <div class="patient-placeholder"><i class="fas fa-user"></i><span>Antes / Después</span><small>Depilación Láser</small></div>
+      <img src="img/patients/depilacion-laser.jpg" alt="Antes y después - Depilación Láser" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+      <div class="patient-placeholder" style="display:none;"><i class="fas fa-user"></i><span>Antes / Después</span><small>Depilación Láser</small></div>
       <div class="patient-badge">Antes / Después</div>
     </div>
+
   </div>
 </section>
 
@@ -940,14 +1138,12 @@
   </div>
   <div class="reveal" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); gap:16px; max-width:1100px; margin:0 auto;">
 
-    <!-- Avales Universitarios -->
     <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(201,169,110,0.25); border-radius:16px; padding:24px 20px; display:flex; flex-direction:column; align-items:center; gap:12px; text-align:center; transition:all .3s;" onmouseover="this.style.background='rgba(201,169,110,0.12)';this.style.borderColor='rgba(201,169,110,0.5)'" onmouseout="this.style.background='rgba(255,255,255,0.06)';this.style.borderColor='rgba(201,169,110,0.25)'">
       <div style="width:50px;height:50px;border-radius:50%;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;font-size:26px;">🎓</div>
       <div style="font-size:12px;letter-spacing:2px;color:#c9a96e;text-transform:uppercase;">Avales Universitarios</div>
       <p style="font-size:13px;color:rgba(255,255,255,0.65);line-height:1.6;">Protocolos avalados por universidades internacionales especializadas en estética y ciencias de la salud.</p>
     </div>
 
-    <!-- Convenios Americanos -->
     <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(201,169,110,0.25); border-radius:16px; padding:24px 20px; display:flex; flex-direction:column; align-items:center; gap:12px; text-align:center; transition:all .3s;" onmouseover="this.style.background='rgba(201,169,110,0.12)';this.style.borderColor='rgba(201,169,110,0.5)'" onmouseout="this.style.background='rgba(255,255,255,0.06)';this.style.borderColor='rgba(201,169,110,0.25)'">
       <div style="width:50px;height:50px;border-radius:50%;overflow:hidden;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;">
         <img src="https://flagcdn.com/w80/us.png" alt="Estados Unidos" style="width:100%;height:100%;object-fit:cover;"/>
@@ -956,7 +1152,6 @@
       <p style="font-size:13px;color:rgba(255,255,255,0.65);line-height:1.6;">Convenios con instituciones estéticas de EE.UU., México y Colombia que garantizan los más altos estándares de calidad.</p>
     </div>
 
-    <!-- Acreditaciones Europeas -->
     <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(201,169,110,0.25); border-radius:16px; padding:24px 20px; display:flex; flex-direction:column; align-items:center; gap:12px; text-align:center; transition:all .3s;" onmouseover="this.style.background='rgba(201,169,110,0.12)';this.style.borderColor='rgba(201,169,110,0.5)'" onmouseout="this.style.background='rgba(255,255,255,0.06)';this.style.borderColor='rgba(201,169,110,0.25)'">
       <div style="width:50px;height:50px;border-radius:50%;overflow:hidden;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;">
         <img src="https://flagcdn.com/w80/eu.png" alt="Unión Europea" style="width:100%;height:100%;object-fit:cover;"/>
@@ -965,7 +1160,6 @@
       <p style="font-size:13px;color:rgba(255,255,255,0.65);line-height:1.6;">Certificaciones de centros europeos líderes en estética avanzada, garantizando técnicas de vanguardia.</p>
     </div>
 
-    <!-- Maestría Brasil -->
     <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(201,169,110,0.25); border-radius:16px; padding:24px 20px; display:flex; flex-direction:column; align-items:center; gap:12px; text-align:center; transition:all .3s;" onmouseover="this.style.background='rgba(201,169,110,0.12)';this.style.borderColor='rgba(201,169,110,0.5)'" onmouseout="this.style.background='rgba(255,255,255,0.06)';this.style.borderColor='rgba(201,169,110,0.25)'">
       <div style="width:50px;height:50px;border-radius:50%;overflow:hidden;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;">
         <img src="https://flagcdn.com/w80/br.png" alt="Brasil" style="width:100%;height:100%;object-fit:cover;"/>
@@ -974,7 +1168,6 @@
       <p style="font-size:13px;color:rgba(255,255,255,0.65);line-height:1.6;">Maestría obtenida en reconocidos institutos brasileños, referentes mundiales en estética corporal y facial.</p>
     </div>
 
-    <!-- Certificación Internacional -->
     <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(201,169,110,0.25); border-radius:16px; padding:24px 20px; display:flex; flex-direction:column; align-items:center; gap:12px; text-align:center; transition:all .3s;" onmouseover="this.style.background='rgba(201,169,110,0.12)';this.style.borderColor='rgba(201,169,110,0.5)'" onmouseout="this.style.background='rgba(255,255,255,0.06)';this.style.borderColor='rgba(201,169,110,0.25)'">
       <div style="width:50px;height:50px;border-radius:50%;background:rgba(201,169,110,0.15);display:flex;align-items:center;justify-content:center;font-size:26px;">✅</div>
       <div style="font-size:12px;letter-spacing:2px;color:#c9a96e;text-transform:uppercase;">Certificación Internacional</div>
@@ -1024,7 +1217,7 @@
       </div>
       <div class="info-item">
         <div class="info-icon"><i class="fab fa-instagram"></i></div>
-        <div class="info-text"><h4>Instagram</h4><p>@belanovaforwomen<br>Síguenos para novedades</p></div>
+        <div class="info-text"><h4>Instagram</h4><p>@belanovaesteticaintegralpiura<br>Síguenos para novedades</p></div>
       </div>
       <a href="https://wa.me/51970842718?text=Hola%2C%20quiero%20agendar%20una%20cita%20en%20Belanova%20For%20Women" target="_blank" rel="noopener" class="btn-primary" style="align-self:flex-start;"><i class="fab fa-whatsapp"></i> Agendar por WhatsApp</a>
     </div>
@@ -1068,19 +1261,19 @@
       <button class="form-submit" onclick="sendFormWA()"><i class="fab fa-whatsapp" style="margin-right:8px;"></i>Enviar por WhatsApp</button>
     </div>
     <div class="contact-ctas reveal">
-      <a href="https://wa.me/51970842718?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Belanova%20For%20Women" target="_blank" rel="noopener" class="contact-card">
+      <a href="https://wa.me/51970842718?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Belanova%20estética%20integral" target="_blank" rel="noopener" class="contact-card">
         <div class="contact-card-icon wa"><i class="fab fa-whatsapp"></i></div>
         <div class="contact-card-text"><h4>WhatsApp</h4><p>Chatea con nosotras ahora mismo</p></div>
         <i class="fas fa-arrow-right" style="margin-left:auto; color:var(--gray-500);"></i>
       </a>
-      <a href="#" target="_blank" rel="noopener" class="contact-card">
+      <a href="https://www.instagram.com/belanovaesteticaintegralpiura?igsh=ajk2dmRzaTJzMGJj" target="_blank" rel="noopener" class="contact-card">
         <div class="contact-card-icon ig"><i class="fab fa-instagram"></i></div>
-        <div class="contact-card-text"><h4>Instagram</h4><p>@belanovaforwomen</p></div>
+        <div class="contact-card-text"><h4>Instagram</h4><p>@belanovaesteticaintegralpiura</p></div>
         <i class="fas fa-arrow-right" style="margin-left:auto; color:var(--gray-500);"></i>
       </a>
       <a href="tel:+51970842718" class="contact-card">
         <div class="contact-card-icon ph"><i class="fas fa-phone-alt"></i></div>
-        <div class="contact-card-text"><h4>Llamar</h4><p>+51 958 061 938 — Atención directa</p></div>
+        <div class="contact-card-text"><h4>Llamar</h4><p>+51 970 842 718 — Atención directa</p></div>
         <i class="fas fa-arrow-right" style="margin-left:auto; color:var(--gray-500);"></i>
       </a>
       <div class="contact-card" style="cursor:default;">
@@ -1101,9 +1294,9 @@
       </div>
       <p class="footer-desc">Centro de estética integral y cuidado personal diseñado exclusivamente para la mujer moderna. Tratamientos premium en Piura, Perú.</p>
       <div class="footer-social">
-        <a href="#" target="_blank" rel="noopener" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" target="_blank" rel="noopener" class="social-btn" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-        <a href="#" target="_blank" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1BHf3Cne9r/?mibextid=wwXIfr" target="_blank" rel="noopener" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me/51970842718?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Belanova%20estética%20integral" target="_blank" rel="noopener" class="social-btn" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/belanovaesteticaintegralpiura?igsh=ajk2dmRzaTJzMGJj" target="_blank" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
         <a href="https://www.tiktok.com/@belanova.esteticapiura?_r=1&_t=ZS-95d1j1nwXe0" target="_blank" class="social-btn" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
       </div>
     </div>
@@ -1136,7 +1329,7 @@
   </div>
 </footer>
 
-<a href="https://wa.me/51970842718?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Belanova%20For%20Women" target="_blank" rel="noopener" class="wa-float" title="Chatea con nosotras en WhatsApp" aria-label="WhatsApp">
+<a href="https://wa.me/51970842718?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Belanova%20estética%20integral" target="_blank" rel="noopener" class="wa-float" title="Chatea con nosotras en WhatsApp" aria-label="WhatsApp">
   <i class="fab fa-whatsapp"></i>
 </a>
 
@@ -1185,7 +1378,13 @@
     document.getElementById('modalTitle').textContent = title;
     document.getElementById('modalDesc').textContent = desc;
     const wrap = document.getElementById('modalImgWrap');
-    wrap.innerHTML = `<div class="service-img-placeholder" style="height:100%;"><i class="fas fa-spa"></i><span>${title}</span></div>`;
+    // Try to use the same image from the card
+    const cardImg = card.querySelector('.service-img-wrap img');
+    if (cardImg && cardImg.style.display !== 'none') {
+      wrap.innerHTML = `<img src="${cardImg.src}" alt="${title}" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;" />`;
+    } else {
+      wrap.innerHTML = `<div class="service-img-placeholder" style="height:100%;"><i class="fas fa-spa"></i><span>${title}</span></div>`;
+    }
     document.getElementById('serviceModal').classList.add('open');
     document.body.style.overflow = 'hidden';
   }
